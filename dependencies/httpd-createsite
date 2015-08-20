@@ -92,9 +92,9 @@
     fi
     # create document root site folder
     sudo mkdir -p ${WWW_ROOT}/$DOMAIN/public_html
-    sudo echo "Welcome to $DOMAIN ! It Works! https://github.com/aerth/arch-servit/ for updates." > ${WWW_ROOT}/$DOMAIN/public_html/index.html
+    sudo echo "Welcome to $DOMAIN ! It Works!" > ${WWW_ROOT}/$DOMAIN/public_html/index.html
     echo sudo chown $user:$WEBUSER ${WWW_ROOT}/$DOMAIN/public_html/ -R
-    
+
     #if needed#sudo mkdir -p ${WWW_ROOT}$DOMAIN/public_html
     # vhost file content
     # rewrite mod must be enabled
