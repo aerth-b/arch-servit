@@ -62,8 +62,8 @@ git clone https://github.com/aerth/servit.git
 
 ```
 sudo cp ./dependencies/httpd-createsite /usr/local/bin/
-sudo cp ./SERVIT /usr/local/bin/
-sudo chmod +x /usr/local/bin/SERVIT
+sudo cp ./arch-servit /usr/local/bin/
+sudo chmod +x /usr/local/bin/arch-servit
 sudo chmod +x /usr/local/bin/httpd-createsite
 
 ```
@@ -71,7 +71,7 @@ sudo chmod +x /usr/local/bin/httpd-createsite
 * Run it!
 
 ```
-SERVIT
+arch-servit
 ```
 
 * Dependencies
