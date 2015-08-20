@@ -92,7 +92,7 @@
     fi
     # create document root site folder
     sudo mkdir -p ${WWW_ROOT}/$DOMAIN/public_html
-    sudo echo "It Works! https://github.com/aerth/arch-servit/ for updates." > ${WWW_ROOT}/$DOMAIN/public_html/index.html
+    sudo echo "Welcome to $DOMAIN ! It Works! https://github.com/aerth/arch-servit/ for updates." > ${WWW_ROOT}/$DOMAIN/public_html/index.html
     echo sudo chown $user:$WEBUSER ${WWW_ROOT}/$DOMAIN/public_html/ -R
     exit 0
     #if needed#sudo mkdir -p ${WWW_ROOT}$DOMAIN/public_html
