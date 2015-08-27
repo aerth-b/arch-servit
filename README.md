@@ -1,6 +1,6 @@
 # SERVIT #
 
-ARCH VERSION
+ARCH VERSION - Under Active Development!
 ```
  ____  _____ ______     _____ _____
 / ___|| ____|  _ \ \   / /_ _|_   _|
