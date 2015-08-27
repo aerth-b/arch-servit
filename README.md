@@ -9,7 +9,7 @@ ARCH VERSION
 |____/|_____|_| \_\ \_/  |___| |_|  
 
 ```
-
+[![Build Status](https://travis-ci.org/aerth/arch-servit.svg)](https://travis-ci.org/aerth/arch-servit)
 
 MIT LICENSE
 
